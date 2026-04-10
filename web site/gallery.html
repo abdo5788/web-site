@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gallery - Libya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="nav">
+        <div class="container nav-inner">
+            <a href="index.html" class="logo">LibyaTravel</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="places.html">Places</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="map.html">Map</a>
+                <a href="about.html">About</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="gallery">
+            <h1>Gallery</h1>
+            <p class="lead">Explore photos from Libya's cultural and natural wonders.</p>
+            <div class="gallery-grid" id="galleryGrid">
+                <img src="images/Tripoli Old City.jpg" alt="Gallery 1" data-large="images/gallery1.jpg">
+                <img src="images/Sabratha.jpg" alt="Gallery 2" data-large="images/gallery2.jpg">
+                <img src="images/leptis.jpg" alt="Gallery 3" data-large="images/gallery3.jpg">
+                <img src="images/Ghadames.jpg" alt="Gallery 4" data-large="images/gallery4.jpg">
+                <img src="images/Cyrene.jpg" alt="Gallery 5" data-large="images/gallery5.jpg">
+                <img src="images/Akakus Mountains.jpg" alt="Gallery 6" data-large="images/gallery6.jpg">
+            </div>
+        </section>
+    </main>
+
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">✕</button>
+        <img src="" alt="" id="lightboxImg">
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="brand">
+                <h3>LibyaTravel</h3>
+            </div>
+            <div class="social">
+                <a href="#">🔵</a>
+                <a href="#">🟣</a>
+                <a href="#">🔷</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
